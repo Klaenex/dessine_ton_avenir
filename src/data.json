@@ -2,61 +2,61 @@
   "questions": [
     {
       "question": "Quel est l'animal le plus rapide du monde ?",
-      "reponse": "Le guépard, capable d'atteindre une vitesse de 110 km/h.",
+      "reponse": "Le guépard règne en maître dans la catégorie des animaux terrestres les plus rapides. Avec une vitesse qui peut atteindre 110 km/h, il est conçu pour l'accélération rapide, ce qui lui permet de capturer des proies avec une agilité impressionnante. Sa vitesse est un trait remarquable qui fascine les biologistes et les passionnés de la nature.",
       "image": "exemple.jpg",
       "image_alt": "Image d'un guépard en pleine course."
     },
     {
       "question": "Quelle est la capitale de la France ?",
-      "reponse": "Paris.",
+      "reponse": "Paris, la capitale de la France, est connue pour son histoire riche, sa culture vibrante et ses monuments emblématiques tels que la Tour Eiffel. Cœur battant de la nation, Paris est le centre de la vie politique, économique et culturelle française depuis des siècles.",
       "image": "exemple.jpg",
       "image_alt": "Image de la Tour Eiffel à Paris."
     },
     {
       "question": "Quel est l'océan le plus grand du monde ?",
-      "reponse": "L'océan Pacifique.",
+      "reponse": "L'océan Pacifique n'est pas seulement le plus grand des océans du monde, mais c'est aussi la plus vaste étendue d'eau sur la Terre, couvrant plus d'un tiers de la surface du globe. Il abrite une biodiversité marine abondante et joue un rôle crucial dans la régulation du climat mondial.",
       "image": "exemple.jpg",
       "image_alt": "Image de l'immensité de l'océan Pacifique."
     },
     {
       "question": "Qui a peint la Joconde ?",
-      "reponse": "Léonard de Vinci.",
+      "reponse": "Léonard de Vinci, l'incarnation même de l'homme de la Renaissance, est le peintre de la célèbre Joconde, aussi connue sous le nom de Mona Lisa. Ce chef-d'œuvre, exposé au musée du Louvre à Paris, continue de captiver les visiteurs par son sourire énigmatique et son regard pénétrant.",
       "image": "/exemple.jpg",
       "image_alt": "Image de la Joconde."
     },
     {
       "question": "Quelle est la planète la plus proche du Soleil ?",
-      "reponse": "Mercure.",
+      "reponse": "Mercure, la plus petite planète de notre système solaire, détient le record de la planète orbitant le plus près du Soleil. Elle offre des conditions extrêmes avec des températures variant drastiquement en raison de son absence d'atmosphère significative.",
       "image": "exemple.jpg",
       "image_alt": "Image de la planète Mercure."
     },
     {
       "question": "Quelle est la langue la plus parlée dans le monde ?",
-      "reponse": "Le mandarin.",
+      "reponse": "Le mandarin, langue officielle de la Chine et de Taiwan, est la langue la plus parlée dans le monde en termes de locuteurs natifs. Sa complexité réside dans son système d'écriture unique et ses multiples tons, qui déterminent le sens des mots.",
       "image": "exemple.jpg",
       "image_alt": "Image symbolique de la langue et culture chinoise."
     },
     {
       "question": "Quel est le fleuve le plus long du monde ?",
-      "reponse": "Le Nil.",
+      "reponse": "Le Nil, serpentant à travers l'Afrique du Nord-Est, est couramment reconnu comme le fleuve le plus long du monde. Il a été une source vitale de vie, de culture et de civilisation depuis des millénaires, irriguant les terres et nourrissant les populations.",
       "image": "exemple.jpg",
       "image_alt": "Image du fleuve Nil et de ses alentours."
     },
     {
       "question": "Quel est le livre le plus vendu au monde après la Bible ?",
-      "reponse": "Don Quichotte de Miguel de Cervantes.",
+      "reponse": "Après la Bible, 'Don Quichotte' de Miguel de Cervantes est souvent cité comme le livre le plus vendu de tous les temps. Cette œuvre de la littérature espagnole raconte les aventures humoristiques d'un noble idéaliste qui se croit chevalier errant.",
       "image": "exemple.jpg",
       "image_alt": "Image représentant Don Quichotte."
     },
     {
       "question": "Quelle est la plus haute montagne du monde ?",
-      "reponse": "L'Everest.",
+      "reponse": "L'Everest, avec son sommet culminant à 8 848 mètres au-dessus du niveau de la mer, détient le titre de la plus haute montagne de la planète. Elle représente un défi ultime pour les alpinistes et un symbole de la majesté de la nature.",
       "image": "exemple.jpg",
       "image_alt": "Image du sommet de l'Everest."
     },
     {
       "question": "Qui a inventé l'ampoule électrique ?",
-      "reponse": "Thomas Edison.",
+      "reponse": "Thomas Edison est souvent crédité de l'invention de l'ampoule électrique, bien qu'il ait en réalité perfectionné et commercialisé une technologie déjà existante. Son ampoule à incandescence a révolutionné l'éclairage et a marqué le début d'une nouvelle ère de progrès technologiques.",
       "image": "exemple.jpg",
       "image_alt": "Image d'une ampoule électrique ancienne."
     }

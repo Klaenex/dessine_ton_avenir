@@ -1,0 +1,54 @@
+.logo {
+  margin: 0 auto;
+}
+
+.title {
+  font-family: $f-title;
+  font-weight: 700;
+  font-size: 1.777rem;
+  margin-top: 0;
+  &--big {
+    text-align: center;
+    font-size: 3.157rem;
+  }
+}
+
+p {
+  font-family: $f-text;
+}
+
+.wrapper {
+  &--text {
+    padding: 0 16px;
+    @include sm {
+      max-width: 305px;
+    }
+  }
+  &--img {
+    @include sm {
+      max-width: 305px;
+      height: 305px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+.question-item {
+  margin-bottom: 2rem;
+  @include sm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+    &:nth-child(odd) .wrapper--img {
+      order: 2;
+    }
+    &:nth-child(even) .wrapper--img {
+      order: -1;
+    }
+  }
+  @include md {
+    margin-bottom: 4rem;
+  }
+}

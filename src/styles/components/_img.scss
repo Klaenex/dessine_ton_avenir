@@ -1,6 +1,10 @@
 img {
   display: block;
   width: 100%;
+  @include sm {
+    width: auto;
+    height: 100%;
+  }
 }
 .logo {
   max-width: 125px;

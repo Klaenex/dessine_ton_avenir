@@ -1,4 +1,6 @@
-@import url("./utils/normalize.css");
-@import url("./utils/_mixin.scss");
-@import url("./utils/_variable.scss");
-@import url("./components/_img.scss");
+@import "./utils/normalize.css";
+@import "./utils/_variable.scss";
+@import "./utils/_mixin.scss";
+
+@import "./components/_layout.scss";
+@import "./components/_img.scss";
