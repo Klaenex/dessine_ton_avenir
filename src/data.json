@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "Quel est l'animal le plus rapide du monde ?",
+      "reponse": "Le guépard, capable d'atteindre une vitesse de 110 km/h.",
+      "image": "exemple.jpg",
+      "image_alt": "Image d'un guépard en pleine course."
+    },
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "reponse": "Paris.",
+      "image": "exemple.jpg",
+      "image_alt": "Image de la Tour Eiffel à Paris."
+    },
+    {
+      "question": "Quel est l'océan le plus grand du monde ?",
+      "reponse": "L'océan Pacifique.",
+      "image": "exemple.jpg",
+      "image_alt": "Image de l'immensité de l'océan Pacifique."
+    },
+    {
+      "question": "Qui a peint la Joconde ?",
+      "reponse": "Léonard de Vinci.",
+      "image": "/exemple.jpg",
+      "image_alt": "Image de la Joconde."
+    },
+    {
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "reponse": "Mercure.",
+      "image": "exemple.jpg",
+      "image_alt": "Image de la planète Mercure."
+    },
+    {
+      "question": "Quelle est la langue la plus parlée dans le monde ?",
+      "reponse": "Le mandarin.",
+      "image": "exemple.jpg",
+      "image_alt": "Image symbolique de la langue et culture chinoise."
+    },
+    {
+      "question": "Quel est le fleuve le plus long du monde ?",
+      "reponse": "Le Nil.",
+      "image": "exemple.jpg",
+      "image_alt": "Image du fleuve Nil et de ses alentours."
+    },
+    {
+      "question": "Quel est le livre le plus vendu au monde après la Bible ?",
+      "reponse": "Don Quichotte de Miguel de Cervantes.",
+      "image": "exemple.jpg",
+      "image_alt": "Image représentant Don Quichotte."
+    },
+    {
+      "question": "Quelle est la plus haute montagne du monde ?",
+      "reponse": "L'Everest.",
+      "image": "exemple.jpg",
+      "image_alt": "Image du sommet de l'Everest."
+    },
+    {
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "reponse": "Thomas Edison.",
+      "image": "exemple.jpg",
+      "image_alt": "Image d'une ampoule électrique ancienne."
+    }
+  ]
+}
