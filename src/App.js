@@ -1,11 +1,11 @@
 import Header from "./components/Header.js";
-import Question from "./components/Question.js";
+import Content from "./components/Content";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Question />
+      <Content />
     </div>
   );
 }

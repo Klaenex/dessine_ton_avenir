@@ -1,3 +1,8 @@
+body {
+  font-family: $f-text;
+  line-height: 1.4;
+  color: $c-grey;
+}
 .logo {
   margin: 0 auto;
 }
@@ -7,6 +12,8 @@
   font-weight: 700;
   font-size: 1.777rem;
   margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
   &--big {
     text-align: center;
     font-size: 3.157rem;
@@ -14,41 +21,75 @@
 }
 
 p {
-  font-family: $f-text;
 }
 
-.wrapper {
-  &--text {
-    padding: 0 16px;
-    @include sm {
-      max-width: 305px;
-    }
+main {
+  padding: 1rem;
+  @include md {
+    margin: 0 auto;
+    max-width: 800px;
   }
-  &--img {
-    @include sm {
-      max-width: 305px;
-      height: 305px;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
+}
+
+.list {
+  list-style-type: none;
+  font-family: $f-text;
+  color: $c-grey;
+  padding-left: 1rem;
+  li {
+    padding: 0.5rem 0;
+  }
+}
+.section {
+  &::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: $c-grey;
+    opacity: 0.2;
+    margin-bottom: 1rem;
+  }
+  .title {
+    cursor: pointer;
+  }
+
+  .content {
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    max-height: 0;
+
+    &--open {
+      max-height: 1300px;
     }
   }
 }
-.question-item {
-  margin-bottom: 2rem;
-  @include sm {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    margin-bottom: 3rem;
-    &:nth-child(odd) .wrapper--img {
-      order: 2;
-    }
-    &:nth-child(even) .wrapper--img {
-      order: -1;
-    }
+
+.chevron {
+  display: block;
+  width: 10px;
+  height: 10px;
+
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  position: relative;
+  left: -2rem;
+
+  &.up {
+    transform: rotate(-135deg);
   }
-  @include md {
-    margin-bottom: 4rem;
+
+  &.down {
+    transform: rotate(45deg);
   }
+}
+
+.wrapper--title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
