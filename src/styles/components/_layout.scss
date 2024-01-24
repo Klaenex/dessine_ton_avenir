@@ -10,24 +10,29 @@ body {
 .title {
   font-family: $f-title;
   font-weight: 700;
-  font-size: 1.777rem;
+  font-size: 1.333rem;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.2;
+  @include md {
+    font-size: 1.777rem;
+  }
   &--big {
     text-align: center;
-    font-size: 3.157rem;
+    font-size: 2.369rem;
+    line-height: 0.9;
+    margin-bottom: 2rem;
+    @include md {
+      font-size: 3.157rem;
+    }
   }
-}
-
-p {
 }
 
 main {
   padding: 1rem;
   @include md {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 650px;
   }
 }
 
@@ -49,6 +54,7 @@ main {
     background-color: $c-grey;
     opacity: 0.2;
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
   }
   .title {
     cursor: pointer;
@@ -67,23 +73,17 @@ main {
 
 .chevron {
   display: block;
-  width: 10px;
-  height: 10px;
-
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  margin-left: 5px;
-  transform: rotate(45deg);
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
   transition: transform 0.3s ease;
-  position: relative;
-  left: -2rem;
 
   &.up {
-    transform: rotate(-135deg);
+    transform: rotate(180deg);
   }
 
   &.down {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
   }
 }
 
@@ -92,4 +92,5 @@ main {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+  cursor: pointer;
 }

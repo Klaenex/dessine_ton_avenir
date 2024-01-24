@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Down from "../icon/down.svg";
 
 const Content = () => {
   const [isOpen, setIsOpen] = useState({
@@ -44,9 +45,15 @@ const Content = () => {
           isOpen.section1 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section1 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section1")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section1")}
+        >
+          <span
+            className={`chevron ${isOpen.section1 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             I. En termes d’évolutions institutionnelles.
           </h3>
         </div>
@@ -86,11 +93,15 @@ const Content = () => {
           isOpen.section2 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section2 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section2")}>
-            II. En termes d’identité.
-          </h3>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section2")}
+        >
+          <span
+            className={`chevron ${isOpen.section2 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">II. En termes d’identité.</h3>
         </div>
 
         <div
@@ -137,9 +148,15 @@ const Content = () => {
           isOpen.section3 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section3 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section3")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section3")}
+        >
+          <span
+            className={`chevron ${isOpen.section3 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             III. En termes de professionnalisation et de simplification
             administrative.
           </h3>
@@ -199,11 +216,15 @@ const Content = () => {
           isOpen.section4 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section4 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section4")}>
-            IV. En termes d’emploi.
-          </h3>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section4")}
+        >
+          <span
+            className={`chevron ${isOpen.section4 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">IV. En termes d’emploi.</h3>
         </div>
 
         <div
@@ -273,9 +294,15 @@ const Content = () => {
           isOpen.section5 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section5 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section5")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section5")}
+        >
+          <span
+            className={`chevron ${isOpen.section5 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             V. En termes d’équipement et d’infrastructure
           </h3>
         </div>
@@ -309,9 +336,15 @@ const Content = () => {
           isOpen.section6 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section6 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section6")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section6")}
+        >
+          <span
+            className={`chevron ${isOpen.section6 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             VI. En termes d'approche associative (directive service, charte
             associative, travail en réseaux, soutien aux partenariats, …)
           </h3>
@@ -353,9 +386,15 @@ const Content = () => {
           isOpen.section7 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section7 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section7")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section7")}
+        >
+          <span
+            className={`chevron ${isOpen.section7 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             VII. En termes de communication et de visibilité du secteur des CJ
           </h3>
         </div>
@@ -410,9 +449,15 @@ const Content = () => {
           isOpen.section8 ? "section--open" : "section--closed"
         }`}
       >
-        <div className="wrapper--title">
-          <span className={`chevron ${isOpen.section1 ? "up" : "down"}`}></span>
-          <h3 className="title" onClick={() => toggleSection("section8")}>
+        <div
+          className="wrapper--title"
+          onClick={() => toggleSection("section8")}
+        >
+          <span
+            className={`chevron ${isOpen.section1 ? "up" : "down"}`}
+            style={{ backgroundImage: `url(${Down})` }}
+          ></span>
+          <h3 className="title">
             VIII. En termes de moyens financiers du secteur des CJ
           </h3>
         </div>
@@ -437,15 +482,14 @@ const Content = () => {
             de Jeunesse avec d’autres politiques concernant les jeunes en
             concertation avec les Régions wallonne et de Bruxelles-Capitale.
           </p>
-          <p>
-            À la veille des élections communales, régionales, fédérale et
-            européenne, la FCJMP se tient à disposition des futurs mandataires
-            et représentants de la société civile afin d’approfondir ces
-            questions et d'engager rapidement les chantiers relatifs à
-            l’ensemble de ces points.
-          </p>
         </div>
       </section>
+      <p>
+        À la veille des élections communales, régionales, fédérale et
+        européenne, la FCJMP se tient à disposition des futurs mandataires et
+        représentants de la société civile afin d’approfondir ces questions et
+        d'engager rapidement les chantiers relatifs à l’ensemble de ces points.
+      </p>
     </main>
   );
 };

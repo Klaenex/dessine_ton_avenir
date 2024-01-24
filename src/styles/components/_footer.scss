@@ -1,0 +1,66 @@
+// Footer.scss
+footer {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  font: $f-text;
+  .wrapper__separator {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.25rem;
+
+    height: 45px;
+    margin-bottom: 1rem;
+    span {
+      width: 100%;
+      display: inline-block;
+      height: 3px;
+      background-color: #279989;
+      border-radius: 10px;
+    }
+    img {
+      max-height: 45px;
+    }
+  }
+  .antennes {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    @include md {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row;
+    }
+    .antenne {
+      margin-bottom: 2rem;
+      h3 {
+        margin-top: 0;
+        color: $c-grey;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin: 5px 0;
+        color: #666;
+      }
+
+      a {
+        color: #279989;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    color: #999;
+    font-size: 0.8em;
+    a {
+      color: #279989;
+    }
+  }
+}
